@@ -1,0 +1,9 @@
+@import "./variables";
+
+/* desafio II */
+
+@each $colorH in red,brown,black {
+    .col-#{$colorH}{
+        background-color: #{$colorH};
+    }
+}

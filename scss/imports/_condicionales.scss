@@ -1,0 +1,11 @@
+@import "./variables";
+
+.estiloFooter{
+    p{
+    @if $colorH == etc{
+        color: $colorTerciario;
+    }@else if $colorH == cte{
+        color: $colorD;
+    }
+    }   
+}   
